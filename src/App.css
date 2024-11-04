@@ -1,0 +1,31 @@
+.app {
+  min-height: 100vh;
+  background: #f4f5f8;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  min-height: calc(100vh - 65px);
+}
+
+.board::-webkit-scrollbar {
+  height: 8px;
+}
+
+.board::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.board::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
